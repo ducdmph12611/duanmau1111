@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.duanmau">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Dự án mẫu"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.duanmau.LoadingScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.duanmau.Activity.ChangePasswordActivity" />
+        <activity android:name="com.example.duanmau.Activity.ListNguoiDungActivity" />
+        <activity android:name="com.example.duanmau.Activity.NguoiDungDetailActivity" />
+        <activity android:name="com.example.duanmau.Activity.NguoiDungActivity" />
+        <activity android:name="com.example.duanmau.LoginScreen" />
+        <activity android:name="com.example.duanmau.Activity.MainActivity" />
+        <activity android:name="com.example.duanmau.Activity.TheLoaiActivity" />
+        <activity android:name="com.example.duanmau.Activity.HoaDonChiTietActivity" />
+        <activity android:name="com.example.duanmau.Activity.HoaDonDetailActivity" />
+        <activity android:name="com.example.duanmau.Activity.ListBanChayActivity" />
+        <activity android:name="com.example.duanmau.Activity.ListHoaDonActivity" />
+        <activity android:name="com.example.duanmau.Activity.ListSachActivity" />
+        <activity android:name="com.example.duanmau.Activity.ListThongKeActivity" />
+        <activity android:name="com.example.duanmau.Activity.SachDetailActivity" />
+        <activity android:name="com.example.duanmau.Activity.ThemHoaDonActivity" />
+        <activity android:name="com.example.duanmau.Activity.ThemSachActivity" />
+        <activity android:name="com.example.duanmau.Activity.TheLoaiDetailActivity" />
+        <activity android:name="com.example.duanmau.Activity.ListTheLoaiActivity" />
+    </application>
+
+</manifest>
